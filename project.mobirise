@@ -39,7 +39,7 @@
     "google-analytics": "",
     "siteUrl": "undefined",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 31,
+    "uniqCompNum": 32,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png",
     "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
@@ -841,20 +841,49 @@
           "_params": {}
         },
         {
-          "_customTemplate": true,
-          "_afterNavbarItem": false,
-          "_customHTML": "<!-- Type valid AMP HTML here -->\n<!-- for more info: https://www.ampproject.org/ -->\n\n<div id=\"disqus_thread\"></div>\n<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n/*\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/Training-Provider-ILR-Compliant-MI-System.html';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Training-Provider-ILR-Compliant-MI-System'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n*/\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-azure.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>\n<noscript>Please enable JavaScript to view the &amp;lt;a href=\"https://disqus.com/?ref_noscript\"&amp;gt;comments powered by Disqus.&amp;lt;/a&amp;gt;</noscript>\n                            ",
-          "_customCSS": "/* Type valid AMP CSS here */\n\ndiv {\n  padding: 80px 0;\n  color: #777;\n  text-align: center;\n}\np {\n  font-size: 60px;\n  color: #777;\n}",
-          "alias": "code-editor",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "pro.custom-html",
-          "_anchor": "custom-html-u",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0",
+              "position": "relative",
+              "margin": "auto",
+              "&::before": {
+                "top": "-40px",
+                "content": "'“'"
+              },
+              "&::after": {
+                "content": "'”'",
+                "bottom": "-80px"
+              }
+            },
+            "& when (@showQuotes)": {
+              ".mbr-text::before, .mbr-text::after": {
+                "position": "absolute",
+                "color": "@quotesColor",
+                "font-size": "5rem",
+                "left": "47%"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-text::before, .mbr-text::after": {
+                "display": "none"
+              }
+            }
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"content11 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Quotes\" name=\"showQuotes\">\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#232323\" condition=\"showQuotes\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div id=\"disqus_thread\"></div>\n<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n/*\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/Training-Provider-ILR-Compliant-MI-System.html';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Training-Provider-ILR-Compliant-MI-System'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n*/\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-azure.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>\n<noscript>Please enable JavaScript to view the &amp;amp;lt;a href=\"https://disqus.com/?ref_noscript\"&amp;amp;gt;comments powered by Disqus.&amp;amp;lt;/a&amp;amp;gt;</noscript>\n    </div>\n</section>",
+          "_cid": "rhdm6sWFUg",
+          "_anchor": "content11-v",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n/*\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/Training-Provider-ILR-Compliant-MI-System.html';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Training-Provider-ILR-Compliant-MI-System'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n*/\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-azure.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>"
-          ]
+          ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_styles": {
