@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JTE AMP",
-    "currentPage": "index.html",
+    "currentPage": "Training-Provider-ILR-Compliant-MI-System.html",
     "theme": {
       "name": "blackamp",
       "title": "BlackAMP",
@@ -39,7 +39,7 @@
     "google-analytics": "",
     "siteUrl": "undefined",
     "versionFirst": "4.6.6",
-    "uniqCompNum": 26,
+    "uniqCompNum": 30,
     "versionPublish": "4.9.1",
     "screenshot": "screenshot.png",
     "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
@@ -337,7 +337,7 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <!-- <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\"> -->\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\">Training Provider&nbsp;<div>ILR Compliant MI System</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><i>HT Projects Ltd EProgress Training Provider MIS</i><div><i>has everything you will need to manage your ESFA ILR Contract</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"Training-Provider-ILR-Compliant-MI-System.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Training Provider</a></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\"> -->\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-5\"><a href=\"Training-Provider-ILR-Compliant-MI-System.html\">Training Provider&nbsp;</a><div><a href=\"Training-Provider-ILR-Compliant-MI-System.html\">ILR Compliant MI System</a></div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\"><i>HT Projects Ltd EProgress Training Provider MIS</i><div><i>has everything you will need to manage your ESFA ILR Contract</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"Training-Provider-ILR-Compliant-MI-System.html\" data-app-placeholder=\"Type Text\" target=\"_blank\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\">Training Provider</a></div>\n    </div>\n</section>",
           "_cid": "rgDUEhl5vR",
           "_anchor": "content1-i",
           "_protectedParams": [],
@@ -381,34 +381,13 @@
             }
           },
           "_name": "social-follow",
-          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n    <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.4\">\n    <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#dd4f39\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n</mbr-parameters>\n\n<div class=\"wrapper\">\n    <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n    Follow Us\n</h1>\n<div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n    <div class=\"icon\">\n        <a href=\"https://youtu.be/_XA6havm5fQ\" class=\"iconfont-wrapper\" target=\"_blank\">\n            <span mbr-icon class=\"amp-iconfont fa-youtube fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.facebook.com/jteltd/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://twitter.com/jthelwell\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon class=\"amp-iconfont fa-twitter fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.linkedin.com/in/jasonthelwell-bespoke-software/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon class=\"amp-iconfont fa-linkedin-square fa\"></span>\n        </a>\n    </div>\n    \n    \n    \n</div>\n</div>\n</section>",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n    <input type=\"range\" inline title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.4\">\n    <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#dd4f39\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n</mbr-parameters>\n\n<div class=\"wrapper\">\n    <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n    Follow Us\n</h1>\n<div class=\"icons-list\" mbr-list mbr-list-grow=\"iconsCount\">\n    <div class=\"icon\">\n        <a href=\"https://youtu.be/_XA6havm5fQ\" class=\"iconfont-wrapper\" target=\"_blank\">\n            <span mbr-icon class=\"amp-iconfont fa-youtube fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.facebook.com/jteltd/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon class=\"amp-iconfont fa-facebook-square fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://twitter.com/jthelwell\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon class=\"amp-iconfont fa-twitter fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.linkedin.com/in/jasonthelwell-bespoke-software/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon class=\"amp-iconfont fa-linkedin-square fa\"></span>\n        </a>\n    </div>\n    \n    \n    \n</div>\n</div>\n</section>",
           "_cid": "rhcTvIDdzp",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "social-follow-p"
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            "h1": {
-              "margin-bottom": "20px"
-            },
-            ".wrapper": {
-              "text-align": "center"
-            }
-          },
-          "_name": "social-share",
-          "_customHTML": "<section class=\"social-share\" group=\"Social\" plugins=\"amp-main,amp-social-share\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\" step=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"2\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"checkbox\" title=\"Email\" name=\"email\" checked>\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\" checked>\n        <input type=\"checkbox\" title=\"Google+\" name=\"gplus\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked>\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Tumblr\" name=\"tumblr\">\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Please share this page</h1>\n        <amp-social-share type=\"email\" mbr-if=\"email\"></amp-social-share>\n        <amp-social-share type=\"facebook\" mbr-if=\"facebook\" data-param-app_id=\"254325784911610\"></amp-social-share>\n        <amp-social-share type=\"gplus\" mbr-if=\"gplus\"></amp-social-share>\n        <amp-social-share type=\"linkedin\" mbr-if=\"linkedin\"></amp-social-share>\n        <amp-social-share type=\"pinterest\" mbr-if=\"pinterest\" data-param-media=\"https://ampbyexample.com/img/amp.jpg\"></amp-social-share>\n        <amp-social-share type=\"tumblr\" mbr-if=\"tumblr\"></amp-social-share>\n        <amp-social-share type=\"twitter\" mbr-if=\"twitter\"></amp-social-share>\n    </div>\n</section>",
-          "_cid": "rfZ4OkHnMf",
-          "_anchor": "social-share-e",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         },
         {
           "_styles": {
@@ -516,7 +495,7 @@
         "title": "Training Provider ILR Compliant MI System",
         "order": 1,
         "meta_descr": "Are you an Employer or Training Provider delivering Work Based Learning Apprenticeships and Traineeships as part of the Government's ongoing commitment to Apprenticeships?",
-        "footer_custom": "<div id=\"disqus_thread\"></div>\n<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Blog-001'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-test.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>\n<noscript>Please enable JavaScript to view the &amp;amp;lt;a href=\"https://disqus.com/?ref_noscript\"&amp;amp;gt;comments powered by Disqus.&amp;amp;lt;/a&amp;amp;gt;</noscript>"
+        "footer_custom": "<div id=\"disqus_thread\"></div>\n<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Training-Provider-ILR-Compliant-MI-System'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-test.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>\n<noscript>Please enable JavaScript to view the &amp;amp;lt;a href=\"https://disqus.com/?ref_noscript\"&amp;amp;gt;comments powered by Disqus.&amp;amp;lt;/a&amp;amp;gt;</noscript>"
       },
       "components": [
         {
@@ -728,6 +707,52 @@
           "_styles": {
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
+            },
+            ".wrapper": {
+              "text-align": "center"
+            },
+            ".amp-iconfont": {},
+            ".icons-list": {
+              "display": "flex",
+              "justify-content": "center"
+            },
+            ".icon": {
+              "padding": "1rem",
+              "margin": ".5rem",
+              "background": "@iconsBg",
+              "opacity": ".7",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.amp-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\"",
+                "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)"
+              }
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n    <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n    <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.4\">\n    <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#dd4f39\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n</mbr-parameters>\n\n<div class=\"wrapper\">\n    <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n    Follow Us\n</h1>\n<div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n    <div class=\"icon\">\n        <a href=\"https://youtu.be/_XA6havm5fQ\" class=\"iconfont-wrapper\" target=\"_blank\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-youtube fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.facebook.com/jteltd/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-square fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://twitter.com/jthelwell\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.linkedin.com/in/jasonthelwell-bespoke-software/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-linkedin-square fa\"></span>\n        </a>\n    </div>\n    \n    \n    \n</div>\n</div>\n</section>",
+          "_anchor": "social-follow-r",
+          "_isUserblock": true,
+          "_sourceTheme": "blackamp",
+          "_cid": "rhd0FqqlbW",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
@@ -742,13 +767,78 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\"> -->\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#bdd7fd\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\">Training Provider&nbsp;<div>ILR Compliant MI System</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><i>HT Projects Ltd EProgress Training Provider MIS</i><div><i>has everything you will need to manage your ESFA ILR Contract</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\"> -->\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#b2ccd2\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\">Training Provider&nbsp;<div>ILR Compliant MI System</div></h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><i>HT Projects Ltd EProgress Training Provider MIS</i><div><i>has everything you will need to manage your ESFA ILR Contract</i></div></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
           "_cid": "rhcGtrnuaW",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content1-m"
+        },
+        {
+          "_styles": {
+            "background-color": "@bgColor",
+            "& when not (@fullWidth)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)",
+              ".mbr-section-title": {
+                "padding-bottom": "3rem"
+              }
+            },
+            "& when (@fullWidth)": {
+              ".mbr-row": {
+                "margin": "0"
+              },
+              ".mbr-section-title": {
+                "padding": "1rem 0"
+              }
+            },
+            ".video-block": {
+              "margin": "auto",
+              "width": "~\"@{videoSize}%\"",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".video-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "youtube2",
+          "_customHTML": "<section class=\"youtube\" group=\"Images & Videos\" plugins=\"amp-main,amp-youtube\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"56\" step=\"1\" condition=\"fullWidth == false\">\n        <input type=\"text\" title=\"Youtube Video URL\" name=\"videoUrl\" value=\"https://youtu.be/_XA6havm5fQ\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': fullWidth == false}\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"video-title mbr-col-sm-12 align-center\" mbr-class=\"{'mbr-col-md-6': !fullWidth,\n                             'mbr-col-md-12':fullWidth}\">\n                <h2 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .video-title\">\n                    Youtube Video\n                </h2>\n            </div>\n            <div class=\"video-block\">\n                <amp-youtube width=\"16\" height=\"9\" layout=\"responsive\" data-videoid=\"_XA6havm5fQ\" class=\"mobirise-loader\">\n                    <div placeholder class=\"placeholder\"></div>\n                </amp-youtube>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rhd1Cfuz6b",
+          "_anchor": "youtube2-t",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
+            },
+            ".wrapper": {
+              "text-align": "center"
+            }
+          },
+          "_name": "social-share",
+          "_customHTML": "<section class=\"social-share\" group=\"Social\" plugins=\"amp-main,amp-social-share\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n\n        <input type=\"checkbox\" title=\"Email\" name=\"email\" checked=\"\">\n        <input type=\"checkbox\" title=\"Facebook\" name=\"facebook\">\n        <input type=\"checkbox\" title=\"Google+\" name=\"gplus\">\n        <input type=\"checkbox\" title=\"Linkedin\" name=\"linkedin\" checked=\"\">\n        <input type=\"checkbox\" title=\"Pinterest\" name=\"pinterest\">\n        <input type=\"checkbox\" title=\"Tumblr\" name=\"tumblr\">\n        <input type=\"checkbox\" title=\"Twitter\" name=\"twitter\" checked=\"\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"wrapper\">\n        <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Please share this page</h1>\n        <amp-social-share type=\"email\" mbr-if=\"email\"></amp-social-share>\n        <amp-social-share type=\"facebook\" mbr-if=\"facebook\" data-param-app_id=\"254325784911610\"></amp-social-share>\n        <amp-social-share type=\"gplus\" mbr-if=\"gplus\"></amp-social-share>\n        <amp-social-share type=\"linkedin\" mbr-if=\"linkedin\"></amp-social-share>\n        <amp-social-share type=\"pinterest\" mbr-if=\"pinterest\" data-param-media=\"https://ampbyexample.com/img/amp.jpg\"></amp-social-share>\n        <amp-social-share type=\"tumblr\" mbr-if=\"tumblr\"></amp-social-share>\n        <amp-social-share type=\"twitter\" mbr-if=\"twitter\"></amp-social-share>\n    </div>\n</section>",
+          "_anchor": "social-share-q",
+          "_isUserblock": true,
+          "_sourceTheme": "blackamp",
+          "_cid": "rhd0cesAVo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "_styles": {
