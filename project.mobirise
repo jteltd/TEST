@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "JTE AMP",
-    "currentPage": "index.html",
+    "currentPage": "Content-Video-Creation.html",
     "theme": {
       "name": "blackamp",
       "title": "BlackAMP",
@@ -470,7 +470,7 @@
             }
           },
           "_name": "footer2",
-          "_customHTML": "<section class=\"footer2\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <select title=\"Columns\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n\n        <input type=\"range\" inline title=\"Column 1 Items\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"2\">\n        <input type=\"range\" inline title=\"Column 2 Items\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline title=\"Column 3 Items\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"3\" condition=\"columnsCount > 2\">\n        <input type=\"range\" inline title=\"Column 4 Items\" name=\"columnItems4\" min=\"1\" max=\"6\" value=\"4\" condition=\"columnsCount > 3\">\n        <input type=\"range\" inline title=\"Column 5 Items\" name=\"columnItems5\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 4\">\n        <input type=\"checkbox\" title=\"Show Lines\" name=\"showLines\" checked>\n        <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#efefef\" condition=\"showLines\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Address\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><b>JTE Limited</b></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Whitchurch<br>Shropshire<br></p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Contacts\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">Mob: <a href=\"tel:07715490540\">07715 490 540</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">Tel: <a href=\"tel:01948667494\">01948 667 494</a></p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Info</h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"jason-thelwell.html#features8-s\">\n                        About Us\n                    </a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        <a href=\"Cyber-Safety-and-Technology-Blog.html\">Blog</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"http://eepurl.com/doRK7j\" target=\"_blank\">Subscribe</a></p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 3\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Categories\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems4\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        Responsive Website</p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                       Google AMP website</p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        Local SEO</p>\n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        Content Video Creation</p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 4\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Links\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems5\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        <a href=\"http://www.htprojects.co.uk\" class=\"text-primary\" target=\"_blank\">HT Projects Ltd</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"https://www.gov.uk/government/collections/individualised-learner-record-ilr\" target=\"_blank\">ESFA ILR info</a></p>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"footer2\" group=\"Footers\" plugins=\"amp-main\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <select title=\"Columns\" name=\"columnsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n        </select>\n\n        <input type=\"range\" inline title=\"Column 1 Items\" name=\"columnItems1\" min=\"1\" max=\"6\" value=\"2\">\n        <input type=\"range\" inline title=\"Column 2 Items\" name=\"columnItems2\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 1\">\n        <input type=\"range\" inline title=\"Column 3 Items\" name=\"columnItems3\" min=\"1\" max=\"6\" value=\"3\" condition=\"columnsCount > 2\">\n        <input type=\"range\" inline title=\"Column 4 Items\" name=\"columnItems4\" min=\"1\" max=\"6\" value=\"4\" condition=\"columnsCount > 3\">\n        <input type=\"range\" inline title=\"Column 5 Items\" name=\"columnItems5\" min=\"1\" max=\"6\" value=\"2\" condition=\"columnsCount > 4\">\n        <input type=\"checkbox\" title=\"Show Lines\" name=\"showLines\" checked>\n        <input type=\"color\" title=\"Lines Color\" name=\"linesColor\" value=\"#efefef\" condition=\"showLines\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Address\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems1\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><b>JTE Limited</b></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">\n                        Whitchurch<br>Shropshire<br></p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 1\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Contacts\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems2\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">Mob: <a href=\"tel:07715490540\">07715 490 540</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".item, .items\">Tel: <a href=\"tel:01948667494\">01948 667 494</a></p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 2\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Info</h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems3\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"jason-thelwell.html#features8-s\">\n                        About Us\n                    </a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"Privacy-Cookie-Policy.html\">Privacy Policy</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"http://eepurl.com/doRK7j\" target=\"_blank\">Subscribe</a></p>\n                </div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 3\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Categories\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems4\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        <a href=\"Responsive-Website-Design.html\">Responsive Website</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"Cyber-Safety-and-Technology-Blog.html\">Cyber Blog</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        <a href=\"Training-Provider-ILR-Compliant-MI-System.html\">Training Provider Software</a></p>\n                    \n                <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        Content Video Creation</p></div>\n            </div>\n\n            <div class=\"items-col mbr-col-sm-12\" mbr-class=\"{'mbr-col-md-4': columnsCount == 3 || columnsCount==5,\n                             'mbr-col-md-3': columnsCount == 4,\n                             'mbr-col-md-6': columnsCount <=2,\n                             'mbr-col-lg-2':columnsCount == 5,\n                             'mbr-col-lg-3':columnsCount == 4,\n                             'mbr-col-lg-4':columnsCount == 3,\n                             'mbr-col-lg-6':columnsCount<=2}\" mbr-if=\"columnsCount > 4\">\n                <h3 class=\"mbr-fonts-style group-title\" mbr-theme-style=\"display-2\" data-app-selector=\".group-title\">\n                    Links\n                </h3>\n                <div class=\"items\" mbr-list mbr-list-grow=\"columnItems5\">\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\">\n                        <a href=\"http://www.htprojects.co.uk\" class=\"text-primary\" target=\"_blank\">HT Projects Ltd</a></p>\n                    <p class=\"item mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".item, .items\"><a href=\"https://www.gov.uk/government/collections/individualised-learner-record-ilr\" target=\"_blank\">ESFA ILR info</a></p>\n                    \n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "footer2-o",
           "_isUserblock": true,
           "_sourceTheme": "blackamp",
@@ -1567,7 +1567,7 @@
     "jason-thelwell.html": {
       "settings": {
         "title": "Jason Thelwell",
-        "order": 4,
+        "order": 5,
         "meta_descr": "Jason Thelwell, Director at JTE Limited"
       },
       "components": [
@@ -2183,6 +2183,338 @@
           "_PHPplaceholders": [],
           "_JSplaceholders": [
             "<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n/*\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/Cyber-Safety-and-Technology-Blog.html';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Cyber-Safety-and-Technology-Blog.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n*/\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-azure.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>"
+          ],
+          "_cid": "rhdw1CHy6v",
+          "_anchor": "content11-12",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        }
+      ]
+    },
+    "Content-Video-Creation.html": {
+      "settings": {
+        "title": "Content Video Creation",
+        "order": 4,
+        "meta_descr": "As a small business owner you may think that having a video about your business will cost £1000's, not any more!!",
+        "footer_custom": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            "amp-sidebar": {
+              "min-width": "260px!important",
+              "z-index": "1050!important",
+              "background-color": "@menuBgColor"
+            },
+            "amp-sidebar.open:after": {
+              "content": "''",
+              "position": "absolute",
+              "top": "0",
+              "left": "0",
+              "bottom": "0",
+              "right": "0",
+              "background-color": "red"
+            },
+            ".open": {
+              "transform": "translateX(0%) !important",
+              "display": "block!important"
+            },
+            ".builder-sidebar": {
+              "background-color": "@menuBgColor",
+              "position": "relative",
+              "height": "100vh",
+              "z-index": "1030",
+              "padding": "1rem 2rem",
+              "max-width": "20rem"
+            },
+            ".headerbar": {
+              "display": "flex",
+              "flex-direction": "column",
+              "justify-content": "center",
+              "padding": ".5rem 1rem",
+              "min-height": "70px",
+              "align-items": "center",
+              "background": "@menuBgColor",
+              "&.sticky-nav": {
+                "position": "fixed",
+                "z-index": "1000",
+                "width": "100%"
+              }
+            },
+            "button.sticky-but": {
+              "position": "fixed"
+            },
+            ".brand": {
+              "display": "flex",
+              "align-items": "center",
+              "align-self": "flex-start",
+              "padding-right": "30px",
+              "p": {
+                "margin": "0",
+                "padding": "0"
+              }
+            },
+            ".brand-name": {
+              "color": "#ffffff",
+              "text-align": "center"
+            },
+            ".sidebar": {
+              "padding": "1rem 0",
+              "margin": "0"
+            },
+            ".sidebar > li": {
+              "list-style": "none",
+              "display": "flex",
+              "flex-direction": "column"
+            },
+            ".sidebar a": {
+              "display": "block",
+              "text-decoration": "none",
+              "margin-bottom": "10px"
+            },
+            ".close-sidebar": {
+              "width": "30px",
+              "height": "30px",
+              "position": "relative",
+              "cursor": "pointer",
+              "background-color": "transparent",
+              "border": "none",
+              "&:focus": {
+                "outline": "2px auto @primaryColor"
+              },
+              "span": {
+                "position": "absolute",
+                "left": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "transform": "rotate(45deg)"
+                },
+                "&:nth-child(2)": {
+                  "transform": "rotate(-45deg)"
+                }
+              }
+            },
+            "@media (min-width: 992px)": {
+              "& .brand-name": {
+                "min-width": "8rem"
+              },
+              "& .builder-sidebar": {
+                "margin-left": "auto",
+                ".sidebar li": {
+                  "flex-direction": "row",
+                  "flex-wrap": "wrap",
+                  "a": {
+                    "padding": ".5rem",
+                    "margin": "0"
+                  }
+                }
+              },
+              "& .builder-overlay": {
+                "display": "none !important"
+              }
+            },
+            ".hamburger": {
+              "position": "absolute",
+              "top": "25px",
+              "& when (@showLogo)": {
+                "@media (min-width: 768px)": {
+                  "top": "calc(0.5rem ~\"+\" @logoHeight ~\"*\" 0.5px ~\"-\" 10px)"
+                }
+              },
+              "right": "20px",
+              "margin-left": "auto",
+              "width": "30px",
+              "height": "20px",
+              "background": "none",
+              "border": "none",
+              "cursor": "pointer",
+              "z-index": "1000",
+              "&:focus": {
+                "outline": "none"
+              },
+              "span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "amp-img": {
+              "height": "~\"@{logoHeight}px\"",
+              "width": "~\"@{logoWidth}px\"",
+              "margin-right": "1rem",
+              "display": "flex",
+              "align-items": "center",
+              "@media (max-width: 768px)": {
+                "max-height": "55px",
+                "max-width": "55px"
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"amp-main,amp-sidebar\" global=\"\" once=\"menu\" always-top=\"\" position-absolute=\"\">\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked=\"\">\n        <input type=\"range\" title=\"Logo Height\" inline=\"\" name=\"logoHeight\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n        <input type=\"range\" title=\"Logo Width\" inline=\"\" name=\"logoWidth\" min=\"55\" max=\"120\" value=\"55\" step=\"1\">\n\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked=\"\">\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked=\"\">\n        <select title=\"Sidebar Side\" name=\"sidebarSide\">\n            <option value=\"left\">Left</option>\n            <option value=\"right\" selected=\"\">Right</option>\n        </select>\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#15181b\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <nav class=\"headerbar\" mbr-class=\"{'sticky-nav':sticky}\">\n      <div class=\"brand\">\n          <span mbr-if=\"showLogo\" class=\"brand-logo\">\n              <amp-img src=\"@PROJECT_PATH@/assets/images/jte-ltd-logo-110x110.jpg\" layout=\"responsive\" width=\"55\" height=\"55\" alt=\"JTE Limited\">\n                  <a href=\"index.html\"><img class=\"mbr-temp\" src=\"@PROJECT_PATH@/assets/images/jte-ltd-logo-110x110.jpg\" alt=\"JTE Limited\" title=\"JTE Limited\"></a>\n              </amp-img>\n          </span>\n          <p mbr-text=\"\" mbr-theme-style=\"display-1\" mbr-if=\"showBrand\" class=\"brand-name mbr-fonts-style\" data-app-selector=\".brand-name\">JTE Ltd</p>\n      </div>\n    </nav>\n    <amp-sidebar id=\"sidebar\" layout=\"nodisplay\" side=\"{{sidebarSide}}\">\n        <div class=\"builder-sidebar\" id=\"builder-sidebar\">\n            <button on=\"tap:sidebar.close\" class=\"close-sidebar\">\n                <span></span>\n                <span></span>\n            </button>\n\n            <div mbr-menu=\"\" class=\"sidebar mbr-white\" mbr-theme-style=\"display-7\" mbr-if=\"showLinks\"><a class=\"text-white\" href=\"index.html\" data-app-placeholder=\"Type Text\">Home</a>\n              \n              <a class=\"text-white\" href=\"jason-thelwell.html\" data-app-placeholder=\"Type Text\">About Us</a> <a class=\"text-white\" href=\"Cyber-Safety-and-Technology-Blog.html\" data-app-placeholder=\"Type Text\">Blog</a> <a class=\"text-white\" href=\"http://eepurl.com/doRK7j\" data-app-placeholder=\"Type Text\" target=\"_blank\">Subscribe</a></div>\n            \n            <div mbr-if=\"showButtons\" mbr-buttons=\"\" mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn align-center\">\n              <a class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Contact Us</a>\n            </div>\n        </div>\n    </amp-sidebar>\n    <button on=\"tap:sidebar.toggle\" class=\"ampstart-btn hamburger\" mbr-class=\"{'sticky-but':sticky}\">\n        <span></span>\n        <span></span>\n        <span></span>\n        <span></span>\n    </button>\n</section>",
+          "_cid": "rhdw1yBq8r",
+          "_anchor": "menu1-x",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "p": {
+              "margin": "0"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section class=\"footer1\" group=\"Footers\" plugins=\"amp-main\" global once=\"footer\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#15181b\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"mbr-col-sm-12 align-center\">\n            <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-app-placeholder=\"Type Text\">\n                © Copyright 2019 Jason Thelwell JTE Limited - All Rights Reserved\n            </p>\n        </div>\n    </div>\n</section>",
+          "_cid": "rhdw1zDXrV",
+          "_anchor": "footer1-y",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footer",
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "h1": {
+              "margin-bottom": "20px"
+            },
+            ".wrapper": {
+              "text-align": "center"
+            },
+            ".amp-iconfont": {},
+            ".icons-list": {
+              "display": "flex",
+              "justify-content": "center"
+            },
+            ".icon": {
+              "padding": "1rem",
+              "margin": ".5rem",
+              "background": "@iconsBg",
+              "opacity": ".7",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".iconfont-wrapper": {
+              "display": "inline-block",
+              "width": "~\"@{iconsSize}rem\"",
+              "height": "~\"@{iconsSize}rem\"",
+              "span.amp-iconfont": {
+                "font-size": "~\"@{iconsSize}rem\"",
+                "color": "contrast(@iconsBg, darken(@iconsBg, 50%), #ffffff, 60%)"
+              }
+            }
+          },
+          "_name": "social-follow",
+          "_customHTML": "<section class=\"social-follow\" group=\"Social\" plugins=\"amp-main\">\n\n<mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n\n    <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked=\"\">\n    <input type=\"range\" inline=\"\" title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"10\" value=\"4\" step=\"1\">\n    <input type=\"range\" inline=\"\" title=\"Icons Size\" name=\"iconsSize\" min=\"1\" max=\"5\" step=\"0.1\" value=\"1.4\">\n    <input type=\"color\" name=\"iconsBg\" title=\"Icons Bg\" value=\"#dd4f39\">\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n</mbr-parameters>\n\n<div class=\"wrapper\">\n    <h1 class=\"mbr-fonts-style align-center mbr-bold\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n    Follow Us\n</h1>\n<div class=\"icons-list\" mbr-list=\"\" mbr-list-grow=\"iconsCount\">\n    <div class=\"icon\">\n        <a href=\"https://youtu.be/_XA6havm5fQ\" class=\"iconfont-wrapper\" target=\"_blank\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-youtube fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.facebook.com/jteltd/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-facebook-square fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://twitter.com/jthelwell\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-twitter fa\"></span>\n        </a>\n    </div>\n    <div class=\"icon\">\n        <a href=\"https://www.linkedin.com/in/jasonthelwell-bespoke-software/\" target=\"_blank\" class=\"iconfont-wrapper\">\n            <span mbr-icon=\"\" class=\"amp-iconfont fa-linkedin-square fa\"></span>\n        </a>\n    </div>\n    \n    \n    \n</div>\n</div>\n</section>",
+          "_isUserblock": true,
+          "_sourceTheme": "blackamp",
+          "_cid": "rhdw1AjHiw",
+          "_anchor": "social-follow-z",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-section-title": {
+              "padding-bottom": "1rem"
+            },
+            ".mbr-section-button": {
+              "padding-top": "1.5rem"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section content1\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <!-- <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\"> -->\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#b2ccd2\" selected>\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\">Content Video Creation</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><i>Video drives sales, would your business benefit?</i></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rhdw1Bc8bg",
+          "_anchor": "content1-10",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "padding": "2rem 0",
+              "position": "relative",
+              "margin": "auto",
+              "&::before": {
+                "top": "-40px",
+                "content": "'“'"
+              },
+              "&::after": {
+                "content": "'”'",
+                "bottom": "-80px"
+              }
+            },
+            "& when (@showQuotes)": {
+              ".mbr-text::before, .mbr-text::after": {
+                "position": "absolute",
+                "color": "@quotesColor",
+                "font-size": "5rem",
+                "left": "47%"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-text::before, .mbr-text::after": {
+                "display": "none"
+              }
+            }
+          },
+          "_name": "content11",
+          "_customHTML": "<section class=\"content11 mbr-section article\" plugins=\"amp-main\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Show Quotes\" name=\"showQuotes\">\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#232323\" condition=\"showQuotes\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div id=\"disqus_thread\"></div>\n[JS_CODE_0]\n<noscript>Please enable JavaScript to view the &amp;amp;lt;a href=\"https://disqus.com/?ref_noscript\"&amp;amp;gt;comments powered by Disqus.&amp;amp;lt;/a&amp;amp;gt;</noscript>\n    </div>\n</section>",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script>\n\n/**\n*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.\n*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/\n/*\nvar disqus_config = function () {\nthis.page.url = 'https://jte-test.azurewebsites.net/Content-Video-Creation.html';  // Replace PAGE_URL with your page's canonical URL variable\nthis.page.identifier = 'Content-Video-Creation.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable\n};\n*/\n(function() { // DON'T EDIT BELOW THIS LINE\nvar d = document, s = d.createElement('script');\ns.src = 'https://jte-azure.disqus.com/embed.js';\ns.setAttribute('data-timestamp', +new Date());\n(d.head || d.body).appendChild(s);\n})();\n</script>"
           ],
           "_cid": "rhdw1CHy6v",
           "_anchor": "content11-12",
